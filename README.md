@@ -68,7 +68,7 @@ See [Evidence index](Evidence/Evidence-Index.md) for the full screenshot invento
 - Data is fictional; this was a controlled single-VM exercise, not a production healthcare environment.
 - The screenshots do not themselves show the full 4663 process/access fields; those fields were separately transcribed from the event during investigation and are recorded in [Investigation Notes](Evidence/Investigation-Notes.md).
 - A saved 4624 screenshot exists, but its event was not tied conclusively to the 4663 session; it is not used as proof of a specific login.
-- The original 104-row CSV **was not included** in the supplied evidence archive. Add it to `Dataset/Patient_Claims.csv` before publishing if you want the dataset included.
+- The repository includes the original 104-row synthetic healthcare claims dataset in Dataset/Patient_Claims.csv. No real patient data was used.
 - No MITRE ATT&CK technique is assigned: there is insufficient evidence of adversarial behavior.
 
 ## Repository layout
@@ -78,7 +78,7 @@ Healthcare-SOC-Project/
 ├── README.md
 ├── Dataset/
 │   ├── README.md
-│   └── Patient_Claims.csv       # add original synthetic CSV before publishing
+│   └── Patient_Claims.csv 
 ├── Evidence/
 │   ├── Evidence-Index.md
 │   └── Investigation-Notes.md
